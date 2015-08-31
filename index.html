@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ngEasyMenu Demo</title>
+  <meta name="description" content="Andrew Gnott's ngEasyMenu Demo">
+  <meta name="author" content="Andrew Gnott">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
+
+  <!-- Latest compiled and minified CSS 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">--->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-animate.min.js"></script>
+	
+	<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body ng-app="demoModule" ng-controller="demoController as demo" style="font-family: 'Open Sans';">
+
+<ng-easy-menu ng-easy-menu-config="demo.menuConfig"></ng-easy-menu>
+
+</body>
+
+<script src="demo.controller.js"></script>
+
+<script src="ngEasyMenu/ngEasyMenu.module.js"></script>
+<script src="ngEasyMenu/ngEasyMenu.directive.js"></script>
+</html>
